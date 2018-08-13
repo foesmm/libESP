@@ -1,11 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Xunit;
 
-namespace org.foesmm.libesp.tests
+namespace foesmm.common.esp.tests
 {
-    [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        [Fact]
         public void TestMethod1()
         {
         }
